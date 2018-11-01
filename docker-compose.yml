@@ -11,6 +11,7 @@ services:
 #      - 'traefik.frontend.rule=Host:kimai.yourhost.de'
 #      - 'traefik.port=80'
 #      - 'traefik.enable=true'
+# If you build this Image locally
 #    build:
 #     context: .
 #     dockerfile: ./Dockerfile
