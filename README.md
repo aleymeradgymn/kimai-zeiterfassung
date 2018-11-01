@@ -1,1 +1,1 @@
-kimai-zeiterfassung
+## Kimai Zeiterfassungstool mit externer MySQL Anbindung

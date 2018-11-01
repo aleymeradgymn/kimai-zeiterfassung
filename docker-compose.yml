@@ -1,0 +1,16 @@
+version: '2'
+services:
+ kimai:
+    container_name: kimai
+    environment:
+      - 'KIMAI_VERSION=1.3.1'
+    restart: unless-stopped
+    network_mode: bridge
+# If you use Traefik as Reverse Proxy     
+#    labels:
+#      - 'traefik.frontend.rule=Host:kimai.yourhost.de'
+#      - 'traefik.port=80'
+#      - 'traefik.enable=true'
+#    build:
+#     context: .
+#     dockerfile: ./Dockerfile
