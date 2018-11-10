@@ -2,7 +2,7 @@
 Description
 ==================
 
-This is a Docker Container for the Time Tracking Tool Kimai. This image is Based on Apache and PHP7.2.
+This is a Docker Container for the Time Tracking Tool Kimai. This image is based on Apache and PHP7.2.
 The Database Configuration can be set when the Kimai Container ist fully started. You can choose which Kimai Version you want to install with the Environment.
 
 ```bash
@@ -18,7 +18,7 @@ docker run --name kimai.example.de -e "KIMAI_VERSION=1.3.1" -d aleymeradgymn/kim
 ```
 
 
-
+----------------
 Docker Compose Example
 ==================
 Docker Compose Example with Traefik as Reverse Proxy
